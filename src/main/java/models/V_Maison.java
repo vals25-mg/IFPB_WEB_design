@@ -19,6 +19,8 @@ public class V_Maison extends TypeObjet {
     int id_arrondissement;
     String nom_arrondissement;
     double superficie_vivable;
+    double longueur;
+    double largeur;
 
     public V_Maison() {
         super.setNomTable("v_maison");
@@ -80,6 +82,19 @@ public class V_Maison extends TypeObjet {
         this.superficie_vivable = superficie_vivable;
     }
 
-    
-    
+    public double getLongueur() {
+        return longueur;
+    }
+
+    public void setLongueur(double longueur) {
+        this.longueur = longueur;
+    }
+
+    public double getLargeur() {
+        return largeur;
+    }
+
+    public void setLargeur(double largeur) {
+        this.largeur = largeur;
+    }
 }
